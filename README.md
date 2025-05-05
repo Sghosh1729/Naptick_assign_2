@@ -1,6 +1,6 @@
 # Naptick_assign_2
 
-## 🧠 Overview
+##  Overview
 
 This project aims to develop a **voice-interactive AI sleep coach** that provides personalized, evidence-backed sleep advice using large language models (LLMs). The system:
 - Takes **voice input** from users,
@@ -8,13 +8,13 @@ This project aims to develop a **voice-interactive AI sleep coach** that provide
 - Generates natural language responses using a **fine-tuned model**, and
 - Delivers spoken feedback via **text-to-speech (TTS)**.
 
-## ✨ Core Features
+##  Core Features
 
-- 🔄 Voice-to-voice interaction loop  
-- 👤 Personalized responses based on user input  
-- 📚 Integrated sleep science knowledge from datasets and literature  
+- Voice-to-voice interaction loop  
+- Personalized responses based on user input  
+  Integrated sleep science knowledge from datasets and literature  
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 - `Python` for pipeline orchestration  
 - `Hugging Face Transformers` for model loading and training  
@@ -23,7 +23,7 @@ This project aims to develop a **voice-interactive AI sleep coach** that provide
 - `pyttsx3` for speech synthesis  
 - `sounddevice` and `soundfile` for real-time audio recording  
 
-## 🧬 Base Model
+##  Base Model
 
 The assistant is built using:
 - `faster-whisper` for speech recognition  
@@ -32,7 +32,7 @@ The assistant is built using:
 
 It allows natural voice interactions where users can ask questions or discuss topics related to sleep and well-being.
 
-## 🔍 Key Functionalities
+##  Key Functionalities
 
 - **Voice Input Recording**: Captures user voice using a microphone for 5 seconds  
 - **Speech-to-Text (STT)**: Transcribes voice input using Whisper base model  
@@ -43,11 +43,11 @@ It allows natural voice interactions where users can ask questions or discuss to
 
 ---
 
-## 🧪 Data & Training Strategy
+##  Data & Training Strategy
 
 To make the model relevant to sleep topics, a hybrid fine-tuning strategy was applied:
 
-### 📊 Datasets Used
+###  Datasets Used
 
 - `sleep_health_lifestyle`  
 - `sleep_data`  
@@ -56,7 +56,7 @@ To make the model relevant to sleep topics, a hybrid fine-tuning strategy was ap
 
 These datasets were used for adapting and fine-tuning the base model.
 
-### 🧠 Fine-tuning Data Sources
+###  Fine-tuning Data Sources
 
 - **Curated QA Pairs**: From public sleep datasets  
 - **Instructional Examples**: Based on structured sleep metrics (e.g., age, duration, stress, caffeine)  
@@ -64,7 +64,7 @@ These datasets were used for adapting and fine-tuning the base model.
 
 ---
 
-## 🏗️ Finetuning & Adaptation Pipeline
+##  Finetuning & Adaptation Pipeline
 
 - **Data Loading**: JSON-based QA pairs (Question/Answer format)  
 - **Text Formatting**: Into prompt style — `Question: ... Answer: ...`  
@@ -78,23 +78,23 @@ This enables the creation of a **compact**, **domain-specific**, and **responsiv
 
 ---
 
-## 🚀 Improved Model Capabilities
+##  Improved Model Capabilities
 
 With fine-tuning, the AI coach becomes:
 
-- 🎯 **Domain-Aware**: Understands sleep-related questions in depth  
-- 🗣️ **Voice-Interactive**: Handles voice input/output seamlessly  
-- ⚙️ **GPU-Optimized**: Uses CUDA automatically if available  
-- 💬 **Controlled Generation**: Uses `temperature=0.7` for creative yet relevant responses  
+-  **Domain-Aware**: Understands sleep-related questions in depth  
+-  **Voice-Interactive**: Handles voice input/output seamlessly  
+-  **GPU-Optimized**: Uses CUDA automatically if available  
+-  **Controlled Generation**: Uses `temperature=0.7` for creative yet relevant responses  
 
-### 💡 Example Use Case
+###  Example Use Case
 
 > **Q**: “How much should a teenager sleep?”  
 > **A**: *(spoken reply)* “Teenagers typically need 8 to 10 hours of sleep per night for optimal health and performance.”
 
 ---
 
-## ✅ Outcome
+##  Outcome
 
 The result is a **deployable AI assistant** that can answer:
 - “How much sleep should I get if I’m a stressed college student?”
@@ -104,13 +104,5 @@ This hybrid pipeline enhances contextual reasoning about human sleep behavior, i
 
 ---
 
-## 📄 License
 
-Include your preferred open-source license here (e.g., MIT, Apache 2.0).
-
----
-
-## 📬 Contact
-
-For questions or feedback, contact [Your Name or GitHub Username].
 
