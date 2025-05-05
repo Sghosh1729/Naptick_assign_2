@@ -1,0 +1,85 @@
+Question: What is The combination of topological data analysis and mathematical modeling improves sleep stage prediction from consumer-grade wearables?
+Answer: 
+  What is the problem being addressed?  Wearable devices are promising tools for simplifying complex process of sleep stage classification. However, the data collected from wearable devices are highly noisy, multidimensional, and nonlinear, resulting in limited accuracy for sleep scoring. Therefore, in this study, we aimed to improve the performance of wearable-based sleep scoring algorithms by effectively processing complex wearable data with computational tools.
+Keep reading
+
+
+
+Question: What is Profiling Sleep Architecture using a seven-state continuous-time Markov model ?
+Answer: 
+  Sleep is a complex biological process regulated by networks of neurons and environmental factors. As one falls asleep, neurotransmitters from sleep–wake regulating neurons work in synergy to control the switching of different sleep states throughout the night. As sleep disorders or underlying neuropathology can manifest as irregular switching, analyzing these patterns is crucial in sleep medicine and neuroscience.
+Keep reading
+
+
+
+Question: What is Performance of an open machine learning model to classify sleep/wake from actigraphy across ∼24-hour intervals without knowledge of rest timing?
+Answer: 
+  What is the problem being addressed?  Commonly used sleep-wake algorithms for wrist actigraphy tend to overclassify sleep, relative to wake. This overclassification is most evident when wrist actigraphy includes data from outside of an ‘in-bed’ (or ‘rest’) interval, as is the case for longitudinal studies of participants in free-living scenarios.
+Keep reading
+
+
+
+Question: What is 
+
+                                        About PMC
+                                    
+?
+Answer: 
+                                      Discover a digital archive of scholarly articles, spanning centuries of scientific research.
+                                
+
+Question: What is 
+
+                                        User Guide
+                                    
+?
+Answer: 
+                                     Learn how to find and read articles of interest to you.
+                                
+
+Question: What is 
+
+                                        Collections
+                                    
+?
+Answer: 
+                                     Browse the PMC Journal List or learn about some of PMC's unique collections.
+                                
+
+Question: What is 
+
+                                        For Authors
+                                    
+?
+Answer: 
+                                     Navigate the PMC submission methods to comply with a funder mandate, expand access, and ensure preservation.
+                                
+
+Question: What is 
+
+                                        For Publishers
+                                    
+?
+Answer: 
+                                     Learn about deposit options for journals and publishers and the PMC selection process.
+                                
+
+Question: What is 
+
+                                        For Developers
+                                    
+?
+Answer: 
+                                     Find tools for bulk download, text mining, and other machine analysis.
+                                
+
+Question: What is 10.9 million articles are archived in PMC.?
+Answer: Journals deposit the complete contents of each issue or volume.
+
+Question: What is New in PMC?
+Answer: 
+As the next step in the ongoing modernization of the PubMed Central (PMC) website, NCBI is updating the PMC search functionali…
+
+Question: What is Updated Full-Text Search Preview Now Available?
+Answer: As the next step in the ongoing modernization of the PubMed Central website, NCBI is updating the search functionality and user experience. A beta version is now available for you to preview and provide feedback on.
+
