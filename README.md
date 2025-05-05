@@ -16,7 +16,8 @@ Technical Stack:
 
 Base Model:
 The model is a voice-to-voice AI sleep coach built using the faster_whisper speech recognition model, distilgpt2 for response generation, and pyttsx3 for speech synthesis. It allows users to interact naturally via voice to ask questions or discuss topics related to sleep and well-being.
- Key Features:
+
+Key Features:
 •	Voice Input Recording: Captures user queries using the microphone for 5 seconds.
 •	Speech-to-Text (STT): Uses the lightweight Whisper model (base variant) to transcribe spoken input into text.
 •	LLM Response Generation: Passes the transcription to a distilled GPT-2 model that acts as a helpful sleep coach and generates a relevant response.
@@ -37,6 +38,7 @@ were used for adaptation and fine tuning of the base model
 •	Curated QA Pairs: Derived from public sleep datasets (e.g., student sleep patterns, lifestyle and efficiency data).
 •	Instructional Examples: Generated from structured sleep metrics (age, duration, stress, caffeine intake, etc.).
 •	Clinical Insight Prompts: Formulated using research-backed data.
+
 Finetuning and Adaptation:
 The lightweight language model (distilgpt2) was finetuned using custom question-answer pairs about sleep extracted from real-world datasets. The goal is to create a domain-specific conversational model that can serve as a knowledgeable and personalized AI sleep coach.
  Key Steps:
