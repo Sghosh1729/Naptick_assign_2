@@ -36,7 +36,7 @@ student_sleep_df = load_dataset("student_sleep_patterns")
 # Generate QA pairs
 data = []
 
-# 1. Curated QA from Sleep Efficiency Dataset
+# Curated QA from Sleep Efficiency Dataset
 for _, row in sleep_efficiency_df.iterrows():
     alcohol = row.get('AlcoholConsumption', 'unknown')
     efficiency = row.get('SleepEfficiency', 'unknown')
@@ -44,7 +44,7 @@ for _, row in sleep_efficiency_df.iterrows():
     response = f"Alcohol consumption of {alcohol} is associated with a sleep efficiency of {efficiency}%."
     data.append({"input": prompt, "output": response})
 
-# 2. Instruction-style from Student Sleep Patterns
+# Instruction-style from Student Sleep Patterns
 for _, row in student_sleep_df.iterrows():
     age = row.get('Age', 'unknown')
     duration = row.get('Sleep_Duration', 'unknown')
@@ -55,7 +55,7 @@ for _, row in student_sleep_df.iterrows():
     response = f"The student sleeps for {duration} hours and reports sleep quality as {quality}."
     data.append({"input": prompt, "output": response})
 
-# 3. Descriptive instruction from Sleep Health Dataset
+# Descriptive instruction from Sleep Health Dataset
 for _, row in sleep_health_df.iterrows():
     try:
         duration = row['SleepDuration']
